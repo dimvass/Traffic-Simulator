@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+   <vTypeDistribution id="typedist1">
+      <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="50.0" sigma="0.3" />
+      <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.3" />
+      <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.3" />
+      <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.1" />
+    </vTypeDistribution>
+
+  <routeDistribution id="routedist1">
+    <route id="route0" color="1,1,0" edges="D2 L2 L12 L15 L18 L5 D5" probability="0.2"/>
+    <route id="route1" color="1,2,0" edges="D8 L8 L9 L15 L13 L3 D3" probability="0.2"/>
+    <route id="route01" color="1,1,0" edges="D2 L2 L12 L10 L7 D7" probability="0.2"/>
+    <route id="route02" color="1,2,0" edges="D2 L2 L12 L15 L18 L5 D5" probability="0.2"/>
+    <route id="route04" color="1,1,0" edges="D4 L4 L14 L18 L5 D5" probability="0.2"/>
+  </routeDistribution>
+
+  <vehicle id="distr0" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr1" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr2" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr3" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr4" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr5" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr6" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr7" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr8" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr9" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr10" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr11" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr12" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr13" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr14" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+  <vehicle id="distr15" type="typedist1" route="routedist1" depart="0" color="1,0,0"/>
+
+</routes>

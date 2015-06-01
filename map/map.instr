@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=zm5h90H5OS8
+netconvert --osm-files map.osm -o map.net.xml
+http://sumo.dlr.de/wiki/Networks/Import/OpenStreetMap
+polyconvert  --net-file map.net.xml  --osm-files map.osm  --type-file typemap.xml  -o map.poly.xml
+python /home/dimvas/Downloads/sumo-0.22.0/tools/trip/randomTrips.py -n map.net.xml -e 100 -l
+python /home/dimvas/Downloads/sumo-0.22.0/tools/trip/randomTrips.py -n map.net.xml -r map.rou.xml -e 100 -l
